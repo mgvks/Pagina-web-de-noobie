@@ -1,38 +1,40 @@
 body {
-    font-family: 'Overpass-mono', monospace;
-    src: local(Overpass-mono);
-    margin-top: 240px;
-    text-align: center;
-    color:rgb(200, 202, 224);
-    background-color:rgb(30, 34, 65);
+  font-family: "Overpass-mono", monospace;
+  src: local(Overpass-mono);
+  text-align: center;
+  color: rgb(200, 202, 224);
+  background-color: rgb(30, 34, 65);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
-h1{
-    text-shadow: 2px -2px 0px rgb(81, 86, 140);
+h1 {
+  text-shadow: 2px -2px 0px rgb(81, 86, 140);
 }
 #venti {
-    margin-bottom: 30px;
-    width: 15%;
-    box-shadow: 5px -5px 4px rgb(46, 50, 79);
+  width: 40%;
+  box-shadow: 5px -5px 4px rgb(46, 50, 79);
 }
-h3{
-    text-shadow: 1px -2px 0px rgb(81, 86, 140);
+h3 {
+  text-shadow: 1px -2px 0px rgb(81, 86, 140);
 }
-#osu{
-    color:rgb(207, 190, 223);
+#osu {
+  color: rgb(207, 190, 223);
 }
-#osu:hover{
-    color:rgb(255, 102, 204);
+#osu:hover {
+  color: rgb(255, 102, 204);
 }
-
-#tiktok{
-    color:rgb(207, 190, 223);
+#tiktok {
+  color: rgb(207, 190, 223);
 }
-#tiktok:hover{
-    color:rgb(121, 27, 26);
+#tiktok:hover {
+  color: rgb(121, 27, 26);
 }
-#github{
-    color:rgb(207, 190, 223);
+#github {
+  color: rgb(207, 190, 223);
 }
-#github:hover{
-    color:rgb(53, 59, 121);
+#github:hover {
+  color: rgb(53, 59, 121);
 }
