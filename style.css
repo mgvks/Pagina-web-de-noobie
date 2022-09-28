@@ -3,19 +3,33 @@ body {
   src: local(Overpass-mono);
   text-align: center;
   color:rgb(200, 202, 224);
-  background-color:rgb(30, 34, 65);
+  background-image:url(./fondo.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+#barra1, #barra2, #barra3{
+  background-color:rgb(81, 86, 140);
+}
+div {
+  position: relative;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+}
 h1{
   text-shadow: 2px -2px 0px rgb(81, 86, 140);
 }
 #venti {
-  width: 40%;
+  width: 290px;
   box-shadow: 5px -5px 4px rgb(46, 50, 79);
+ 
 }
 h3{
   text-shadow: 1px -2px 0px rgb(81, 86, 140);
